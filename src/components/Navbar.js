@@ -77,7 +77,7 @@ async function connectWebsite() {
             <Link to="/">
             <img src={fullLogo} alt="" width={120} height={120} className="inline-block -mt-2"/>
             <div className='inline-block font-bold text-xl ml-2'>
-              NFT Marketplace
+              Meme Marketplace
             </div>
             </Link>
           </li>
@@ -94,11 +94,11 @@ async function connectWebsite() {
               }
               {location.pathname === "/sellNFT" ? 
               <li className='border-b-2 hover:pb-0 p-2'>
-                <Link to="/sellNFT">List My NFT</Link>
+                <Link to="/sellNFT">List My Meme</Link>
               </li>
               :
               <li className='hover:border-b-2 hover:pb-0 p-2'>
-                <Link to="/sellNFT">List My NFT</Link>
+                <Link to="/sellNFT">List My Meme</Link>
               </li>              
               }              
               {location.pathname === "/profile" ? 
